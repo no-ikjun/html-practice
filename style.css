@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("./IBMPlexSansKR-Medium.ttf");
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 100px;
+}
+
+.one {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  z-index: 1;
+}
+
+.two {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  z-index: 1;
+}
+
+.check:checked ~ div {
+  background-color: green;
+}
